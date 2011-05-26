@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Cleaning unneeded project files ...
+rm AUTHORS COPYING *.prj.bak Makefile.am Makefile.in NEWS TODO acconfig.h acinclude.m4 config* depcomp install-sh libtool ltmain.sh missing setup-gettext stamp* aclocal.m4 autogen.sh .tm_project.cache 2> /dev/null
+rm -rf autom4te.cache src/.deps 2> /dev/null
+rm src/Makefile.am include/Makefile.am 2> /dev/null
